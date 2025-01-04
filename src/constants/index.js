@@ -13,43 +13,49 @@ export const EXPERIENCES = [
     role: "Jr. Android Developer",
     company: "Trank tec",
     description: `Joined under a team in developing and maintaining android applications using Java, Kotlin. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Java", "Kotlin", "mongoDB"],
+    technologies: ["Java", "Kotlin", "MongoDB"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Posture-Detection",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A Realtime Posture Detection project with YOLOv5 model that detects Good Vs Bad Posture Classification.",
+    technologies: ["Python", "OpenCv", "Torch", "YOLOv5", "Numpy"],
   },
   {
-    title: "Task Management App",
+    title: "RealTime Device Tracker",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An application for mapping and real-time live tracking of locations.",
+    technologies: ["Node.js", "Socket.io", "Leaflet", "OpenStreetMap"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["ReactJS", "Tailwind CSS", "Framer Motion"],
   },
   {
-    title: "Blogging Platform",
+    title: "Drowsiness-Detection",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A Project created for alerting drivers while driving if drowsiness in eyes detected.",
+    technologies: ["Python", "OpenCv", "Dlib", "Numpy"],
+  },
+  {
+    title: "Endless-Game Automation",
+    image: project4,
+    description:
+      "A Project to automate the endless running or driving games with body gestures & hand movements.",
+    technologies: ["Python", "OpenCv", "Dlib", "Numpy"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  linkedin: "https://www.linkedin.com/in/harshwaibhav1708",
+  github: "https://github.com/Harsh1708V",
 };

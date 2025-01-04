@@ -8,3 +8,18 @@
     font-family: "Inter", sans-serif;
     background: #000000;
 }
+
+/* Reflection Effect */
+.reflection {
+    transform: scaleY(-1); /* Flip the text vertically */
+    animation: fadeReflection 1.2s ease-out forwards; /* Reflection fade animation */
+}
+
+@keyframes fadeReflection {
+    0% {
+        opacity: 0.5; /* Initial visibility of the reflection */
+    }
+    100% {
+        opacity: 0; /* Completely fades out */
+    }
+}
