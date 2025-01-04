@@ -37,7 +37,7 @@ const Contact = () => {
     emailjs
       .send(
         "service_rmzvzja",  // Replace with your service ID
-        //"template_id",       // Use your template ID, or leave empty for no template
+        "template_id",       // Use your template ID, or leave empty for no template
         emailData,           // Send the form data as the email content
         "Clbzw6TViXQogu-U0"  // Replace with your user ID
       )
